@@ -49,5 +49,20 @@ export const Appointment = {
 		.then(jsonResponse => {
 			return jsonResponse
 		})
-	}
+	},
+	addLabResult(requestBody) {
+		return fetch(`${cors}${baseUrl}/1/addLabResult`,{
+			method: 'POST',
+			headers: {
+				'Content-Type' : 'application/json'
+			},
+			body: JSON.stringify(requestBody)
+		})
+		.then(response => {
+			return response.json()
+		})
+		.then(jsonResponse => {
+			return jsonResponse
+		})
+	},
 }

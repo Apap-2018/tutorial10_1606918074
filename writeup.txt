@@ -1,0 +1,32 @@
+JAWABAN SOAL LATIHAN
+
+1. Prefix “${cors}" (Cross Origin Resource Sharing) berfungsi untuk melakukan request dari source yang berada di luar origin. Jika dihilangkan, ada kemungkinan error karena source tidak bisa diakses.
+
+2. Yang dilakukan pada kode berikut :
+
+let last = name.pop()
+name.reduce((prev, next) => {
+	return prev[next] = prev[next] || {};
+}, dataJson)[last] = val
+
+Jika klausa tersebut diganti dengan
+“dataJson[key] = val”, terjadi error "TypeError: annot read property 'id' of undefined". Hal ini disebabkan oleh parameter ID yang tersembunyi saat dalam form tidak terproses dengan benar.
+
+LATIHAN
+
+1. Untuk menampilkan daftar seluruh staff farmasi, saya melakukan perubahan sebagai berikut :
+
+	Menambahkan route pada App.js
+	Menambahkan method pada Appointment.js
+	Menambahkan file DaftarStaffFarmasi.js
+	Menambahkan file DaftarStaffFarmasiRow.js
+
+Lalu saya mengikuti langkah-langkah seperti pada tutorial getAllPasien untuk menampilkan daftar seluruh staf Farmasi.
+
+2. Untuk menambahkan hasil lab pasien, saya melakukan perubahan sebagai berikut :
+
+	Menambahkan route pada App.js
+	Menambahkan method pada Appointment.js
+	Menambahkan file FormAddLabResult.jsx dan AddLabResult.jsx. 
+
+Lalu saya mengikuti langkah-langkah seperti pada tutorial updatePasien, dan progres penyelesaian method ini masih dalam pengerjaan sampai write-up ini di-push.

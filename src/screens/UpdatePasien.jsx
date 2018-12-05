@@ -70,11 +70,6 @@ export class UpdatePasien extends React.Component {
 			alert(`Gagal update pasien ${this.state.pasien.nama}`)
 			}
 		})
-
-
-		/** 
-		 * TODO: Akses method updateStatusPasien(requestBody) pada Appointment dan lakukan update state. 
-		 */
 	}
 
 	render() {

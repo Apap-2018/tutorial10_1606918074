@@ -37,6 +37,7 @@ export class App extends React.Component {
 							<Route path="/all-pasien" exact component={DaftarPasien} />
 							<Route path="/all-staff-farmasi" exact component={DaftarStaffFarmasi} />
 							<Route path="/update-pasien/:id" exact component={UpdatePasien} />
+
 							<Route path="/not-found" exact component={NotFound} />
 							<Route component={NotFound} />
 						</Switch>
